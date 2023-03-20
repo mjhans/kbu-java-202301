@@ -3,7 +3,6 @@ public class Mars{
         
         //final은 생성과 동시에 할당 필요, 값 변경은 안된다.
         final int MINUTES_TO_SECONDS = 60; // 1분은 60초
-        
         // 3천 4백만 마일 == 34,000,000
         int earthToMarsDistances = 34000000; // miles
         
