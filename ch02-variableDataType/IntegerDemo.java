@@ -9,7 +9,5 @@ public class IntegerDemo {
         System.out.println("hexVal : " + hexVal);
         System.out.println("octVal : " + octVal);
         System.out.println("binVal : " + binVal);
-
-        
     }
 }
