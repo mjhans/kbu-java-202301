@@ -3,7 +3,7 @@ package com.kbu.java.ch10_Exception.App;
 import java.io.Closeable;
 import java.io.IOException;
 
-class AutoCloseObj implements Closeable{
+class AutoCloseObj implements AutoCloseable{
 
     @Override
     public void close() throws IOException {

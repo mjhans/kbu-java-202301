@@ -11,5 +11,6 @@ public class ExceptionDemo {
         } catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e);
         }
+        System.out.println("exit");
     }
 }
