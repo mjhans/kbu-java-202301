@@ -11,11 +11,6 @@ public class ScannerExceptionAutoCloseDemo {
             temp = input.nextInt();
             System.out.println(temp);
         
-        } 
-        catch (InputMismatchException e){
-            System.out.println(e); 
-        } catch (IllegalStateException | NoSuchElementException  e) {
-            System.out.println(e);
         } catch (Exception e){
             System.out.println(e);
         }
