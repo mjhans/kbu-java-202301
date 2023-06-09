@@ -9,7 +9,10 @@ class IDFormatException extends Exception {
 public class IDFormatTest{
     private String userID;
 
-    public String getUserID(){
+    public String getUserID() throws IDFormatException {
+        if (userID == null){
+            throw new IDFormatException("id is null!");
+        }
         return userID;
     }
     public void setUserID(String userID) throws IDFormatException {
@@ -29,6 +32,11 @@ public class IDFormatTest{
             idft.setUserID(userID);
         } catch (IDFormatException e){
             System.out.println(e);
+            e.printStackTrace();
+        }
+        try{
+            System.out.println(idft.getUserID());
+        } catch (Exception e){
             e.printStackTrace();
         }
 
